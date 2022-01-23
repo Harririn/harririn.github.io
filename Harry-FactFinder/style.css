@@ -11,8 +11,8 @@ body{
 }
 
 main{
-	width: 1000px;
-	height: 950px;
+	width: 900px;
+	height: 800px;
 	display: grid;
 	grid-template-rows:1fr 6fr;
 }
@@ -59,7 +59,7 @@ input:hover{
 
 
 #image{
-	width:850px;
+	width:600px;
 	height:auto;
 	padding:20px;
 }
