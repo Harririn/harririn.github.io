@@ -1,0 +1,73 @@
+/*
+	Candy Theme: https://coolors.co/d3fad6-d1efb5-fcbfb7-edeba0-7cc6fe
+	Forest Theme: https://coolors.co/313628-746d72-857f74-a4ac96-cadf9e
+	Night Theme: https://coolors.co/0a2463-8e94f2-9fa0ff-bbadff-dab6fc
+*/
+html{
+	height:100%;
+}
+
+body{
+	background-color: #7CC6FE;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:100%;
+}
+
+main{
+	width: 900px;
+	height: 900px;
+	display: grid;
+	grid-template-rows:1fr 6fr;
+}
+
+section{
+	border: 3px solid #FFFFFF;
+	background-color: #D1EFB5;
+	font-size:18px;
+	font-family: 'Courier New';
+	color:#FBB8B1;
+	padding:30px;
+	border-color:#EDEBA0;
+	border-radius:15px;
+}
+
+#menu{
+	display:grid;
+	height: 100px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+	padding:15px;
+	grid-gap:10px;
+}
+
+input{
+	background-color:#D1EFB5;
+	color: #FBB8B1;
+	font-size: 20px;
+	font-family: 'Courier New';
+	border:3px solid #EDEBA0;
+	border-radius:15px;
+}
+input:hover{
+	background-color: #FBB8B1;
+	color:#D1EFB5;
+}
+
+#theme{
+	display:grid;
+	height: 100px;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding:15px;
+	grid-gap:10px;
+}
+
+
+#image{
+	display: block;
+	margin-top: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	border-radius:15px;
+}
